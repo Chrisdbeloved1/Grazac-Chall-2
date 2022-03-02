@@ -1,0 +1,41 @@
+<svg width="1008" height="338" viewBox="0 0 1008 338" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_77_30)">
+<g filter="url(#filter0_d_77_30)">
+<rect width="1104" height="338" rx="4" fill="#191919"/>
+</g>
+<mask id="mask0_77_30" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1104" height="338">
+<rect width="1104" height="338" rx="4" fill="white"/>
+</mask>
+<g mask="url(#mask0_77_30)">
+<ellipse cx="781" cy="65.5758" rx="16" ry="15.5758" fill="white" fill-opacity="0.04"/>
+<ellipse cx="696" cy="118.401" rx="24" ry="23.3636" fill="white" fill-opacity="0.24"/>
+<ellipse cx="625" cy="301.231" rx="29" ry="28.2311" fill="white" fill-opacity="0.12"/>
+<ellipse cx="625" cy="301.231" rx="8" ry="7.78788" fill="white" fill-opacity="0.64"/>
+<ellipse cx="938" cy="81.303" rx="8" ry="7.78788" fill="white" fill-opacity="0.12"/>
+<ellipse cx="658" cy="176.811" rx="2" ry="1.94697" fill="white" fill-opacity="0.48"/>
+<ellipse cx="674" cy="57.072" rx="2" ry="1.94697" fill="white" fill-opacity="0.12"/>
+<ellipse cx="781" cy="65.5758" rx="6" ry="5.84091" fill="white" fill-opacity="0.64"/>
+<circle cx="872" cy="287" r="200" fill="url(#paint0_radial_77_30)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_77_30" x="-38" y="-18" width="1180" height="414" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="12" operator="erode" in="SourceAlpha" result="effect1_dropShadow_77_30"/>
+<feOffset dy="20"/>
+<feGaussianBlur stdDeviation="25"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.0980392 0 0 0 0 0.0980392 0 0 0 0.16 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_77_30"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_77_30" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_77_30" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(814.168 225.211) rotate(39.505) scale(384.125)">
+<stop stop-color="#DFDFDF"/>
+<stop offset="0.443175" stop-color="#4C4C4C"/>
+<stop offset="1" stop-color="#333333"/>
+</radialGradient>
+<clipPath id="clip0_77_30">
+<rect width="1008" height="338" fill="white"/>
+</clipPath>
+</defs>
+</svg>

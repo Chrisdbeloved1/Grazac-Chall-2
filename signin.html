@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" />
+    <link rel="stylesheet" href="signup.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+    <title>Log in</title>
+</head>
+<body>
+    
+    <div class="header_wrapper">
+        <!-- navbar starts here -->
+        <header class="header_container"         data-aos="fade-down"
+        data-aos-anchor-placement="center-center"
+        data-aos-duration="500" >
+          <div class="header_logo">
+            <a href="index.html">  <img src="images/Logo.svg" alt="" /> </a>
+          </div>
+        </header>
+
+        <div class="big_text animate__animated animate__bounce animate__slow"> 
+          <h1>Welcome back. We exist to make entrepreneurship easier</h1>
+        </div>
+
+        <!-- form container -->
+        <div class="form_container">
+          <form id="form" action="/">
+
+            <div class="input-control">
+              <label for="email"> Email <span style="color:#E53D3E">*</span></label>
+              <input type="text" id="email" name="email" placeholder="Enter your email address" >
+              <div class="error"></div>
+            </div>
+ 
+            <div class="input-control">
+              <label for="password"> Password <span style="color:#E53D3E">*</span></label>
+              <input type="password" id="password" name="password" placeholder="Enter your password">
+              <div class="error"></div>
+            </div>
+
+            <div class="check_box">
+                <div class="check_content">
+                    <input type="checkbox" id="logCheck">
+                    <label for="logCheck" class="text">Remember me</label>
+                </div>
+            </div>
+
+            <button type="submit">Sign in</button>
+          </form>
+
+          <!-- or option -->
+          <div class="input-control">
+            <p style="color: rgb(216, 216, 216); text-align: center; font-size: 11px;">--------------------------  <span style="color: #666;"> Or</span>  ------------------------------</p>
+          </div>
+
+
+        <!-- other option button -->
+          <div class="other_button">
+            <button type="button" class="button">
+             <span class="btn_img"><img src="images/git.svg" alt=""></span>
+             <span class="btn_text">Continue with Github</span> 
+             
+             <button type="button" class="button">
+              <span class="btn_img"><img src="images/google.svg" alt=""></span>
+              <span class="btn_text">Continue with Google</span> 
+             </div>
+
+             <div class="others">
+               <p>Don’t you have an account? <a href="signup.html" target="_blank "style="color:blue;text-decoration:none;"> Sign up </a></p>
+             </div>
+
+      </div>
+
+
+<script src="./signin.js"></script>
+</body>
+</html>
