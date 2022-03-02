@@ -157,7 +157,7 @@ html {
 }
 
 .button:first-child:hover {
-  background-color: #191919b7;
+  background-color: rgba(43, 41, 41, 0.897);
 }
 
 .others {
@@ -170,15 +170,15 @@ html {
   color: #666;
   font-size: 16px;
 }
-.check_box {
+/* .check_box {
   height: 20%;
-}
+} */
 
 .check_content {
   margin-top: 100px;
 }
 
-.check_box .check_content {
+.check_content {
   display: flex;
   align-items: center;
 }

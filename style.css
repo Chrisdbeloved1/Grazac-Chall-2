@@ -56,6 +56,12 @@ html {
   cursor: pointer;
 }
 
+.btn2:hover {
+  background: linear-gradient(60deg, #338cf5, #4fd1c5);
+  color: #fff;
+  transition: 2s ease-in;
+}
+
 .btn2 {
   padding: 10px 20px;
   color: #fff;
@@ -381,6 +387,8 @@ html {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  border-radius: 4px;
+  box-shadow:0 16px 35px rgb(29 29 29 / 50%);
   justify-content: center;
 }
 
@@ -809,7 +817,7 @@ html {
   .banner_btn {
     display: flex;
     flex-direction: row;
-    width: 17.5rem;
+    width: 18rem;
     height: 6.5rem;
     justify-content: space-between;
     align-items: center;
@@ -864,7 +872,7 @@ html {
 
   .section1 {
     width: 100%;
-    height: 70rem;
+    height: 72rem;
     background: #eaeaea;
   }
 
@@ -991,7 +999,7 @@ html {
 
   .section3 {
     width: 100%;
-    height: 75rem;
+    height: 85rem;
   }
 
   .sect_inner {
@@ -1024,21 +1032,21 @@ html {
   }
 
   .testimony {
-    width: 100%;
+    width: 84%;
   }
 
   .banner {
-    width: 90%;
-    height: 24rem;
+    width: 82%;
+    height: 25rem;
     background-image: url("images/BottomCTA.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .inner_banner {
-    width: 90%;
+    width: 85%;
     height: 55%;
-    margin: -100px auto 0px auto;
+    margin: -140px auto 0px auto;
   }
 
   .inner_banner > h4 {
@@ -1058,10 +1066,10 @@ html {
   }
 
   .submit_btn {
-    width: 30%;
+    width: 36%;
     height: 15%;
     padding: 0px 5px 0px 5px;
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .footer_container {
@@ -1071,18 +1079,18 @@ html {
 
   .foot_inner_container {
     width: 76%;
-    height: 45rem;
+    height: 53rem;
     margin: 40px auto 20px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding: 30px 0px 0px 0px;
     border-top: 1.5px solid #e4e0e0;
     border-bottom: 1.5px solid #e4e0e0;
   }
 
   .foot_sub {
-    width: 80%;
+    width: 100%;
   }
 
   .foot_sub > li > p {
@@ -1092,7 +1100,7 @@ html {
 
   .input_main_cont {
     width: 100%;
-    height: 25%;
+    height: 20%;
     display: flex;
     align-items: center;
     border: 1px solid #dfdfdf;
@@ -1102,14 +1110,14 @@ html {
     width: 85%;
     height: 100%;
     border: none;
-    padding: 20px 15px;
+    padding: 0px 15px;
     color: #999;
     font-size: 12px;
   }
 
   .foot_under {
     width: 80%;
-    height: 7%;
+    height: 14%;
     margin: 40px auto 40px auto;
     display: flex;
     flex-direction: column;
@@ -1120,5 +1128,9 @@ html {
     font-size: 14px;
     color: #666;
     padding-bottom: 20px;
+  }
+
+  .right {
+    height: 55%;
   }
 }
